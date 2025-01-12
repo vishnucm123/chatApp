@@ -1,4 +1,12 @@
-<p>composer update</p>
+
+<p> 1 Clone the project and create the necessary files in your local environment.</p>
+<p> 2 Run composer install or composer update to install the required PHP dependencies.</p>
+<p> 3 Run npm install followed by npm run dev to set up the front-end assets, using Reverb-based chat notifications. </p>
+<p> 4 Copy the .env.example file and rename it to .env. Then, add the environment variables from the .env.example file. </p>
+<p> 5 I used SQLite for the database, so run the migrations with php artisan migrate to set up the database schema. </p>
+<p> 6 Serve the project by running php artisan serve.</p>
+<p> 7 The project uses Laravel Livewire. First, add more users. These users will be listed on the dashboard. After clicking on a user, you can send a message to that user.</p>
+<p>Thank you!</p>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
